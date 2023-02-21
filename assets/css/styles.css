@@ -366,6 +366,12 @@ body .full-width {
     border: 0.1rem solid var(--primary-color);
 }
 
+@media (max-width: 470px) {
+    body {
+        min-width: 470px;
+    }
+}
+
 @media (max-width: 800px) {
     .intro-content, .grid {
         grid-template-columns: 1fr;
